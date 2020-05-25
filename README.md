@@ -10,3 +10,9 @@ The project focuses on building testing framework, understanding test driven dev
 1.2
 
     using helper function to prevent global variable, lack of description and stopping script when error occurs.
+    
+----------------------------------------
+1.3
+
+    using assert nodejs module for strict value checking
+
