@@ -31,3 +31,9 @@ The project focuses on building testing framework, understanding test driven dev
 
     add beforeEach hook that initialises dropdown menu, add helper function to wait for the result before checkig dropdown display
 
+----------------------------------------
+1.7
+
+    check the right amount of list after searching
+
+
