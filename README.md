@@ -26,3 +26,8 @@ The project focuses on building testing framework, understanding test driven dev
 
     testing the dropdown menu that should not be is-active as default
 
+----------------------------------------
+1.6
+
+    add beforeEach hook that initialises dropdown menu, add helper function to wait for the result before checkig dropdown display
+
