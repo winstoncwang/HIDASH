@@ -83,3 +83,16 @@ it('After searching, dropdown opens up', async () => {
 	const dropdown = document.querySelector('.dropdown');
 	assert.include(dropdown.className, 'is-active');
 });
+
+it('After searching, display the same amount of result as initialised', async () => {
+	const input = document.querySelector('input');
+	input.value = 'avengers';
+	input.dispatchEvent(new Event('input'));
+
+	//wait for content then check for opening up of dropdown
+	//helper function
+	await waitFor('.dropdown-item');
+
+	const items = document.querySelectorAll('.dropdown-item');
+	assert.equal(items.length, 4);
+});
