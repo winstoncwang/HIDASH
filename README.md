@@ -16,3 +16,8 @@ The project focuses on building testing framework, understanding test driven dev
 
     using assert nodejs module for strict value checking
 
+----------------------------------------
+1.4
+
+    write out test for a previous project to display the list of movies with a list of fake data
+
