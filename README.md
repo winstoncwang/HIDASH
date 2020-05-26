@@ -21,3 +21,8 @@ The project focuses on building testing framework, understanding test driven dev
 
     write out test for a previous project to display the list of movies with a list of fake data
 
+----------------------------------------
+1.5
+
+    testing the dropdown menu that should not be is-active as default
+
